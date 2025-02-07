@@ -50,11 +50,9 @@ void clignotement() {
     digitalWrite(LED, HIGH);
     delay(tempsClignotement);
   }
-
 }
 
 void variation() {
-
   Serial.print("Variation – ");
   Serial.println(numEtudiant);
   for (int i = 1; i < 255; i++) {
@@ -65,7 +63,6 @@ void variation() {
     }
     delay(intervalleVariation);
   }
-
 }
 
 void eteint() {
